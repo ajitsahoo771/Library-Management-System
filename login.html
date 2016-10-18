@@ -1,0 +1,106 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>login</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+        <div class="vert-text">
+		</br></br></br></br></br></br></br></br>
+		<center><img src="s.png" class="img-responsive" alt="sipu" width="700" height="1000"></center>
+		</br></br></br></br>
+			    <form class="form-horizontal" role="form">
+						  <div class="form-group">
+						    <label for="inputEmail1" class="col-lg-4 control-label"></label>
+						    <div class="col-lg-4">
+						      <input type="email" class="form-control" id="inputEmail1" name="email" placeholder="College Mail Id ">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="text1" class="col-lg-4 control-label"></label>
+						    <div class="col-lg-4">
+						      <input type="text" class="form-control" id="text1" name="pass" placeholder="Password">
+						    </div>
+						  </div>
+						  
+						  <div class="form-group">
+						    <div class="col-lg-15">
+						      <a href="#about" class="btn btn-default btn-lg">Login</a>`</br>
+							  <font
+							  
+						    </div>
+							</br></br></br></br></br></br></br></br>
+							<hr>
+<font face="Tekton Pro" size="6.5" color="white">
+<marquee>
+
+    Our library is great. Our library is great. Our library is great. Our library is great. Our library is great. Our library is great. Our library is great. Our library is great.
+        </font>
+    </marquee>
+	<hr>
+						  </div>
+					   </form><!-- form -->
+					   </center>
+ 
+
+            
+        </div>
+    </div>
+    <!-- /Full Page Image Header Area -->
+
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+    <script>
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    </script>
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    </script>
+    <script>
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
